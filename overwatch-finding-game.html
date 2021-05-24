@@ -1,0 +1,133 @@
+<head>
+    <style>
+        #hex1 {
+            animation: hexagon 3s 200ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex5 {
+            animation: hexagon 3s 400ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex7 {
+            animation: hexagon 3s 600ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex6 {
+            animation: hexagon 3s 800ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex3 {
+            animation: hexagon 3s 1000ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex2 {
+            animation: hexagon 3s 1200ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #hex4 {
+            animation: hexagon 3s 1400ms infinite ease-in-out;
+            transform-origin: center;
+        }
+
+        #cicle1 {
+            animation: cicle 3s linear infinite;
+            transform-origin: center;
+            stroke-dashoffset: 534;
+        }
+
+        #cicle2 {
+            animation: cicle 1s linear infinite;
+            transform-origin: center;
+            stroke-dashoffset: 534;
+        }
+
+        @keyframes hexagon {
+            10% {
+                opacity: 0;
+                transform: scale(0.5)
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes cicle {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position: absolute; left: 235px; top: 10px;">
+        <svg height="200" width="200">
+            <circle cx="90" cy="90" r="85" stroke="black" stroke-width="2" fill="white" />
+            <g id="cicle2">
+                <circle cx="90" cy="90" r="85" stroke="black" stroke-width="5" fill="white"
+                    stroke-dasharray="360 174" />
+            </g>
+            <g id="cicle1">
+                <circle cx="90" cy="90" r="85" stroke="black" stroke-width="3" fill="white" stroke-dasharray="60 474" />
+            </g>
+        </svg>
+    </div>
+    <div style="position: absolute; left: 253px; top: 50px;"><svg width="56" height="48">
+            <g id="hex1">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 253px; top: 100px;"><svg width="56" height="48">
+            <g id="hex2">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 297px; top: 125px;"><svg width="56" height="48">
+            <g id="hex3">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 297px; top: 75px;"><svg width="56" height="48">
+            <g id="hex4">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 297px; top: 25px;"><svg width="56" height="48">
+            <g id="hex5">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 341px; top: 100px;"><svg width="56" height="48">
+            <g id="hex6">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    <div style="position: absolute; left: 341px; top: 50px;"><svg width="56" height="48">
+            <g id="hex7">
+                <path class="hex"
+                    d="M56.52173913043478 24.474630976516742 L42.39130434782609 48.949261953033485 L14.130434782608702 48.949261953033485 L0 24.474630976516746 L14.130434782608683 3.552713678800501e-15 L42.39130434782609 0 Z">
+                </path>
+            </g>
+        </svg></div>
+    </div>
+    </div>
+</body>
